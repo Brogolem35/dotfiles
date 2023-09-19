@@ -1,0 +1,33 @@
+# Colors (Bronz Breeze)
+colors:
+  # Default colors
+  primary:
+    background: '#121212'
+    foreground: '#23FF14'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#CC0F20'
+    green:   '#23FF14'
+    yellow:  '#C19C00'
+    blue:    '#1E3ED4'
+    magenta: '#E326FF'
+    cyan:    '#35B3FF'
+    white:   '#E6E6E6'
+
+  # Bright colors
+  bright:
+    black:   '#505050'
+    red:     '#FF1F23'
+    green:   '#22FEFF'
+    yellow:  '#FF6428'
+    blue:    '#2354FF'
+    magenta: '#B4009E'
+    cyan:    '#50CEE3'
+    white:   '#F2F2F2'
+
+  # Cursor colors
+  cursor:
+    text: CellBackground
+    cursor: '#FFFFFF'
