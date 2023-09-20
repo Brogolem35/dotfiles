@@ -86,6 +86,8 @@ alias py=python
 alias vim=nvim
 alias rm=trash
 alias zath=zathura
+alias yay=paru
+alias waifu2x=waifu2x-ncnn-vulkan
 
 alias vimzshrc="vim ~/.config/zsh/.zshrc"
 
