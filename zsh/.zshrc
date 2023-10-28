@@ -91,4 +91,6 @@ alias waifu2x=waifu2x-ncnn-vulkan
 
 alias vimzshrc="vim ~/.config/zsh/.zshrc"
 
+path+=("$HOME/.cargo/bin")
+export PATH
 export LD_PRELOAD=/usr/lib/libstdc++.so.6
