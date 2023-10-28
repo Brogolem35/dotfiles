@@ -100,4 +100,3 @@ alias vimzshrc="vim ~/.config/zsh/.zshrc"
 
 path+=("$HOME/.cargo/bin")
 export PATH
-export LD_PRELOAD=/usr/lib/libstdc++.so.6
