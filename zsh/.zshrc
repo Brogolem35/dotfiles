@@ -80,6 +80,13 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+export PATH=/home/brogolem/.local/bin:$PATH
+
+yt-audio()
+{
+	 yt-dlp -x -f bestaudio $1 -o - | ffmpeg -i - $2
+}
+
 # aliases
 alias code=codium
 alias py=python
