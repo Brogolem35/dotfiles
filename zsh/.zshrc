@@ -97,6 +97,8 @@ alias yay=paru
 alias waifu2x=waifu2x-ncnn-vulkan
 
 alias vimzshrc="vim ~/.config/zsh/.zshrc"
+alias ls="ls -A"
+alias ll="ls -A -l"
 
 path+=("$HOME/.cargo/bin")
 export PATH
